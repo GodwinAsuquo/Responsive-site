@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('images/bg-intro-desktop.png');
+    background-color: #FF7978;
+    background-size: cover;
+}
+
+main{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.rectangle{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+.first_text{
+    color: white;
+    padding-top: 10px;
+    line-height: 1.6;
+}
+
+.section2{
+    width: 100%;
+}
+
+.top_container{
+    color: white;
+    background-color: #5D54A3;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 13px 122px;
+    border-radius: 10px;
+    width: fit-content;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+   width: 540px;
+   height: 470px;
+   margin-top: 20px;
+   border-radius: 10px;
+   padding: 40px;
+   box-shadow: 0 8px rgba(0, 0, 0, 0.2);
+}
+
+input{
+    border-radius: 5px;
+    border: solid #DEDEDE;
+    padding: 20px 20px;
+    width: 80%;
+    margin: 10px auto;
+    font-weight: bold;
+    font-weight: 17px;
+    
+}
+button{
+    color: white;
+    background-color: #37CC8A;
+    border: none;
+    width: 510px;
+    margin: auto;
+    padding: 19px 132px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow:  0px 5px #3EB37F;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #77E2B4;
+    box-shadow:  0px 5px #6BCCA1;
+    transition: 0.5s;
+}
+
+.bottom_content{
+    color: #BEBDC5;
+    font-size: 14px;
+    margin: auto;
+}
+
+@media screen and (max-width: 375px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    .rectangle{
+        width: 375px;
+        height: fit-content;
+        margin: 0;
+        
+    }
+.section{
+    width: 375px;
+}
+
+    main{
+    display: grid;
+
+    }
+    .first_text{
+        color: white;
+        width: 312px;
+        margin: auto;
+        text-align: center;
+        padding: 0 0 40px 0;
+    }
+
+    h1{
+    font-size: 25px;
+    width: fit-content;
+    margin: auto;
+    padding-top: 50px ;
+    }
+   
+    .top_container{
+        text-align: center;
+        width: 65%;
+        padding: 16px 40px;
+        font-size: 13px;
+        margin: auto;
+    }
+.container{
+    width: 73%;
+    margin: auto;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+    button{
+        text-align: center;
+        width: 268px;
+        padding: 10px 20px;
+    }
+    .bottom_content{
+        text-align: center;
+    }
+}
